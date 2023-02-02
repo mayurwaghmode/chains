@@ -1,8 +1,7 @@
 name: Daily jobs
 
 on:
-  schedule:
-    - cron: '0 5 * * *'
+  push:
   workflow_dispatch:
 
 defaults:
